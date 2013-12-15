@@ -344,7 +344,8 @@ color:#FFF;
 .products_block {}
 	.products_block li {float:left
 }
-	.products_block li img {border:1px solid #d1d1d1}
+	/*.products_block li img {border:1px solid #d1d1d1}*/
+	.products_block li img {border:1px solid  #FFF}
 
 /* BLOCK customer privacy ******************************************************************* */
 .account_creation label{
