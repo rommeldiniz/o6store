@@ -39,24 +39,23 @@ a {cursor:pointer}
 		struture
 ************************************************************************************************ */
 #page {}
-	#header {z-index:10}
-	#columns {z-index:1}
+	#header {z-index:10;}
+	#columns {z-index:1;background-color: #fff;}
 		#left_column {}
 		#center_column {}
 		#right_column {}
-	#footer {}
+	#footer {background:url('../img/fondo.png') repeat 0 0 !important;}
 
 
 /* ************************************************************************************************
 		generic style
 ************************************************************************************************ */
 body{
-	font:normal 11px/14px 'Quattrocento Sans', sans-serif;
+	font:normal 12px/14px 'Quattrocento Sans', sans-serif;
 	color:#222;
-	background:#fff
 }
 body.content_only {
-	background: #FFF;
+	background:url('../img/fondo.png') repeat 0 0;
 }
 
 /* positionnement ****************************************************************************** */
@@ -159,7 +158,7 @@ span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large,
 	border-radius: 3px !important;
 	font-weight:bold;
 	color:#000;
-	background:url(../img/bg_bt.gif) repeat-x 0 0 #f4b61b;
+	background:url(../img/bg_bt.gif) repeat-x 0 0 rgb(236,102,28);
 	cursor: pointer;
 }
 *:first-child+html input.button_mini, *:first-child+html input.button_small, *:first-child+html input.button, *:first-child+html input.button_large,
@@ -1027,8 +1026,10 @@ table#cart_summary .gift-icon {
 	float: left;
 	height: 20em;
 	width: 49%;
+	margin-left: 251px;
 }
-#create-account_form {margin-right: 11px;}
+#create-account_form {margin-right: 30px;
+margin-left: 250px;}
 
 #authentication #create-account_form fieldset,
 #authentication #login_form fieldset {
@@ -1048,7 +1049,7 @@ table#cart_summary .gift-icon {
 	font-size:12px;
 	color:#fff;
 	text-transform:uppercase;
-	background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898
+	background: rgb(27,27,27);
 }
 #create-account_form .title_block  {
 	padding-bottom:22px;
