@@ -24,6 +24,12 @@
 *}
 
 <!-- MODULE Home Featured Products -->
+
+<div class="oulet">
+    <div class="oulet_texto">CHEQUEA <b>AHORA</b> NUESTRAS <b>OFERTAS</b>, VISITA EL <b>OULET</b></div>
+    <div class="boton_oulet"><a href="#" class="botonesgdes">OULET</a></div>
+</div>
+    
 <div id="featured-products_block_center" class="block products_block clearfix">
 	<p class="title_block">{l s='Featured products' mod='homefeatured'}</p>
 	{if isset($products) AND $products}
