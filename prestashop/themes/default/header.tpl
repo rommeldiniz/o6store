@@ -111,4 +111,11 @@
 				<div id="center_column" class=" grid_5">
 				{/if}
 
+				{if $page_name == 'authentication'}   
+				<!-- Center -->
+				<div id="center_column" class=" grid_7">
+				{else}
+				<div id="center_column" class=" grid_5">
+				{/if}
+
 	{/if}

@@ -47,18 +47,11 @@
 	<div class="block_various_links" id="block_various_links_footer">
 		<p class="title_block">{l s='Information' mod='blockcms'}</p>
 		<ul>
-			{if !$PS_CATALOG_MODE}<li class="first_item"><a href="{$link->getPageLink('prices-drop')|escape:'html'}" title="{l s='Specials' mod='blockcms'}">{l s='Specials' mod='blockcms'}</a></li>{/if}
-			<li class="{if $PS_CATALOG_MODE}first_{/if}item"><a href="{$link->getPageLink('new-products')|escape:'html'}" title="{l s='New products' mod='blockcms'}">{l s='New products' mod='blockcms'}</a></li>
-			{if !$PS_CATALOG_MODE}<li class="item"><a href="{$link->getPageLink('best-sales')|escape:'html'}" title="{l s='Top sellers' mod='blockcms'}">{l s='Top sellers' mod='blockcms'}</a></li>{/if}
-			{if $display_stores_footer}<li class="item"><a href="{$link->getPageLink('stores')|escape:'html'}" title="{l s='Our stores' mod='blockcms'}">{l s='Our stores' mod='blockcms'}</a></li>{/if}
-			<li class="item"><a href="{$link->getPageLink($contact_url, true)|escape:'html'}" title="{l s='Contact us' mod='blockcms'}">{l s='Contact us' mod='blockcms'}</a></li>
-			{foreach from=$cmslinks item=cmslink}
-				{if $cmslink.meta_title != ''}
-					<li class="item"><a href="{$cmslink.link|addslashes|escape:'html'}" title="{$cmslink.meta_title|escape:'htmlall':'UTF-8'}">{$cmslink.meta_title|escape:'htmlall':'UTF-8'}</a></li>
-				{/if}
-			{/foreach}
-			<li><a href="{$link->getPageLink('sitemap')|escape:'html'}" title="{l s='sitemap' mod='blockcms'}">{l s='Sitemap' mod='blockcms'}</a></li>
-			{if $display_poweredby}<li class="last_item">{l s='Powered by' mod='blockcms'} <a class="_blank" href="http://www.prestashop.com">PrestaShop</a>&trade;</li>{/if}
+			{if !$PS_CATALOG_MODE}<li class="first_item"><a href="#" title="{l s='Como comprar'}">{l s='¿Cómo Comprar?' mod='blockcms'}</a></li>{/if}
+			<li class="{if $PS_CATALOG_MODE}first_{/if}item"><a href="#" title="{l s='New products' mod='blockcms'}">{l s='New products' mod='blockcms'}</a></li>
+			{if !$PS_CATALOG_MODE}<li class="item"><a href="#" title="{l s='Top sellers' mod='blockcms'}">{l s='Top sellers' mod='blockcms'}</a></li>{/if}
+			{if $display_stores_footer}<li class="item"><a href="#" title="{l s='Our stores' mod='blockcms'}">{l s='Our stores' mod='blockcms'}</a></li>{/if}
+						
 		</ul>
 	{$footer_text}
 	</div>

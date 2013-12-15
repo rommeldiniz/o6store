@@ -101,6 +101,7 @@ ul.sf-menu li li li.sfHover ul {
 }
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
   	background: none;
+	color: rgb(236,102,28) !important;
 }
 .sf-menu ul li:hover, .sf-menu ul li.sfHover,
 .sf-menu ul li a:focus, .sf-menu ul li a:hover, .sf-menu ul li a:active {

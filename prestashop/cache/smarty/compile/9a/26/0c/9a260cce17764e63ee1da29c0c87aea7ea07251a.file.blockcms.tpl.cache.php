@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2013-12-13 16:46:20
+<?php /* Smarty version Smarty-3.1.14, created on 2013-12-14 20:28:38
          compiled from "C:\xampp\htdocs\o6store\prestashop\themes\default\modules\blockcms\blockcms.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:312752ab7924481f54-49139478%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9a260cce17764e63ee1da29c0c87aea7ea07251a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\o6store\\prestashop\\themes\\default\\modules\\blockcms\\blockcms.tpl',
-      1 => 1384807196,
+      1 => 1387069094,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_52ab792459c642_78665201',
   'variables' => 
   array (
     'block' => 0,
@@ -25,15 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'link' => 0,
     'PS_CATALOG_MODE' => 0,
     'display_stores_footer' => 0,
-    'contact_url' => 0,
-    'cmslinks' => 0,
-    'cmslink' => 0,
-    'display_poweredby' => 0,
     'footer_text' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52ab792459c642_78665201',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_52ab792459c642_78665201')) {function content_52ab792459c642_78665201($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include 'C:\\xampp\\htdocs\\o6store\\prestashop\\tools\\smarty\\plugins\\modifier.escape.php';
 ?>
@@ -90,44 +87,19 @@ $_smarty_tpl->tpl_vars['cms_page']->_loop = true;
 		<p class="title_block"><?php echo smartyTranslate(array('s'=>'Information','mod'=>'blockcms'),$_smarty_tpl);?>
 </p>
 		<ul>
-			<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value){?><li class="first_item"><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('prices-drop'), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'Specials','mod'=>'blockcms'),$_smarty_tpl);?>
-"><?php echo smartyTranslate(array('s'=>'Specials','mod'=>'blockcms'),$_smarty_tpl);?>
+			<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value){?><li class="first_item"><a href="#" title="<?php echo smartyTranslate(array('s'=>'Como comprar'),$_smarty_tpl);?>
+"><?php echo smartyTranslate(array('s'=>'¿Cómo Comprar?','mod'=>'blockcms'),$_smarty_tpl);?>
 </a></li><?php }?>
-			<li class="<?php if ($_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value){?>first_<?php }?>item"><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('new-products'), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'New products','mod'=>'blockcms'),$_smarty_tpl);?>
+			<li class="<?php if ($_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value){?>first_<?php }?>item"><a href="#" title="<?php echo smartyTranslate(array('s'=>'New products','mod'=>'blockcms'),$_smarty_tpl);?>
 "><?php echo smartyTranslate(array('s'=>'New products','mod'=>'blockcms'),$_smarty_tpl);?>
 </a></li>
-			<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value){?><li class="item"><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('best-sales'), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'Top sellers','mod'=>'blockcms'),$_smarty_tpl);?>
+			<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value){?><li class="item"><a href="#" title="<?php echo smartyTranslate(array('s'=>'Top sellers','mod'=>'blockcms'),$_smarty_tpl);?>
 "><?php echo smartyTranslate(array('s'=>'Top sellers','mod'=>'blockcms'),$_smarty_tpl);?>
 </a></li><?php }?>
-			<?php if ($_smarty_tpl->tpl_vars['display_stores_footer']->value){?><li class="item"><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('stores'), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'Our stores','mod'=>'blockcms'),$_smarty_tpl);?>
+			<?php if ($_smarty_tpl->tpl_vars['display_stores_footer']->value){?><li class="item"><a href="#" title="<?php echo smartyTranslate(array('s'=>'Our stores','mod'=>'blockcms'),$_smarty_tpl);?>
 "><?php echo smartyTranslate(array('s'=>'Our stores','mod'=>'blockcms'),$_smarty_tpl);?>
 </a></li><?php }?>
-			<li class="item"><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink($_smarty_tpl->tpl_vars['contact_url']->value,true), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'Contact us','mod'=>'blockcms'),$_smarty_tpl);?>
-"><?php echo smartyTranslate(array('s'=>'Contact us','mod'=>'blockcms'),$_smarty_tpl);?>
-</a></li>
-			<?php  $_smarty_tpl->tpl_vars['cmslink'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['cmslink']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['cmslinks']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['cmslink']->key => $_smarty_tpl->tpl_vars['cmslink']->value){
-$_smarty_tpl->tpl_vars['cmslink']->_loop = true;
-?>
-				<?php if ($_smarty_tpl->tpl_vars['cmslink']->value['meta_title']!=''){?>
-					<li class="item"><a href="<?php echo htmlspecialchars(addslashes($_smarty_tpl->tpl_vars['cmslink']->value['link']), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['cmslink']->value['meta_title'], 'htmlall', 'UTF-8');?>
-"><?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['cmslink']->value['meta_title'], 'htmlall', 'UTF-8');?>
-</a></li>
-				<?php }?>
-			<?php } ?>
-			<li><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('sitemap'), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'sitemap','mod'=>'blockcms'),$_smarty_tpl);?>
-"><?php echo smartyTranslate(array('s'=>'Sitemap','mod'=>'blockcms'),$_smarty_tpl);?>
-</a></li>
-			<?php if ($_smarty_tpl->tpl_vars['display_poweredby']->value){?><li class="last_item"><?php echo smartyTranslate(array('s'=>'Powered by','mod'=>'blockcms'),$_smarty_tpl);?>
- <a class="_blank" href="http://www.prestashop.com">PrestaShop</a>&trade;</li><?php }?>
+						
 		</ul>
 	<?php echo $_smarty_tpl->tpl_vars['footer_text']->value;?>
 

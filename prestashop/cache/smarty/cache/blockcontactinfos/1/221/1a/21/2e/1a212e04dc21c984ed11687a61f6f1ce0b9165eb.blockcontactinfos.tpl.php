@@ -5,11 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1a212e04dc21c984ed11687a61f6f1ce0b9165eb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\o6store\\prestashop\\themes\\default\\modules\\blockcontactinfos\\blockcontactinfos.tpl',
-      1 => 1384807196,
+      1 => 1387069101,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '1463252ab7924ec61e5-73923187',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_52acfebe96e6e9_89164882',
   'variables' => 
   array (
     'blockcontactinfos_company' => 0,
@@ -18,14 +21,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'blockcontactinfos_email' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52ab7924f1d9f6_92962397',
-  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52ab7924f1d9f6_92962397')) {function content_52ab7924f1d9f6_92962397($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52acfebe96e6e9_89164882')) {function content_52acfebe96e6e9_89164882($_smarty_tpl) {?>
 <!-- MODULE Block contact infos -->
 <div id="block_contact_infos">
-	<p class="title_block">Contacte con nosotros</p>
+	<p class="title_block">BLOQUE 4</p>
 	<ul>
 		<li><strong>My Company</strong></li>		<li><pre>42 avenue des Champs Elys&eacute;es
 75000 Paris

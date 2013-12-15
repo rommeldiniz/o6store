@@ -27,17 +27,32 @@
 				</div>
 
 <!-- Right -->
+{if $page_name != 'authentication'}
 				<div id="right_column" class="column grid_2 omega">
 					{$HOOK_RIGHT_COLUMN}
 				</div>
+{/if}
 			</div>
 
 <!-- Footer -->
 			<div id="footer" class="grid_9 alpha omega clearfix">
 				{$HOOK_FOOTER}
-				{if $PS_ALLOW_MOBILE_DEVICE}
-					<p class="center clearBoth"><a href="{$link->getPageLink('index', true)}?mobile_theme_ok">{l s='Browse the mobile site'}</a></p>
-				{/if}
+                 <div class="footer">
+				<div class="logo_foot"> </div>
+        
+    </div><!-- FIN DEL FOOTER -->
+    
+                   
+				
+					<p class="center clearBoth"><div class="pie">
+    	
+        <p style="margin-left:125px; float:left; margin-top:6px; font-size:9px; color: #999;" disc>
+        <a class="foot" href="#">HOME</a> • <a class="foot" href="#">MARCAS</a> • <a class="foot" href="#">PRODUCTOS</a> • <a class="foot" href="#">OULET • <a class="foot" href="#">BLOG</a> • <a class="foot" href="#">CONTACTO</a></p>
+        
+        <p style="margin-right:125px; float:right; margin-top:6px; font-size:9px; color: #999;" disc>O6Store @2013 by <a class="foot" href="#">Totuma Creativa</a> | Todos los derechos reservados</p>
+       
+    </div>
+				
 			</div>
 		</div>
 	{/if}

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2013-12-13 22:43:59
+<?php /* Smarty version Smarty-3.1.14, created on 2013-12-14 20:24:59
          compiled from "C:\xampp\htdocs\o6store\prestashop\themes\default\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:461352ab7735a77735-55013546%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a12cd3c7acbe3c36f47467c85bf138effc5923ab' => 
     array (
       0 => 'C:\\xampp\\htdocs\\o6store\\prestashop\\themes\\default\\header.tpl',
-      1 => 1386990821,
+      1 => 1387068896,
       2 => 'file',
     ),
   ),
@@ -180,6 +180,13 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 					
 				</div>
 				<?php if ($_smarty_tpl->tpl_vars['page_name']->value=='product'){?>   
+				<!-- Center -->
+				<div id="center_column" class=" grid_7">
+				<?php }else{ ?>
+				<div id="center_column" class=" grid_5">
+				<?php }?>
+
+				<?php if ($_smarty_tpl->tpl_vars['page_name']->value=='authentication'){?>   
 				<!-- Center -->
 				<div id="center_column" class=" grid_7">
 				<?php }else{ ?>
