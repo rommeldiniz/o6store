@@ -107,15 +107,13 @@
 				{if $page_name == 'product'}   
 				<!-- Center -->
 				<div id="center_column" class=" grid_7">
+				{else if $page_name == 'authentication'}   
+				<!-- Center -->
+				<div id="center_column" class=" grid_7" style="height:500px;">
 				{else}
 				<div id="center_column" class=" grid_5">
 				{/if}
 
-				{if $page_name == 'authentication'}   
-				<!-- Center -->
-				<div id="center_column" class=" grid_7">
-				{else}
-				<div id="center_column" class=" grid_5">
-				{/if}
+			
 
 	{/if}
