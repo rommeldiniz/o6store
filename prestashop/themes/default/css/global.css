@@ -286,6 +286,41 @@ table.table_block  td {
 }
 
 /* BLOCK .block ******************************************************************************** */
+.oulet {
+	margin: 0 auto;
+	font-size: 18px;
+	line-height:50px;
+	height:48px;
+	width:708px;
+	background-color:#FFF;
+	border-bottom: solid rgb(235,235,235) 2px;	
+}
+
+.boton_oulet {
+	line-height:40px;
+	float:right;
+	margin-top:4px;
+	margin-right:20px;
+	position: static;
+	height: 40px;
+	width: 100px;
+	text-align:center;
+	background-image: url(../img/boton2.png);
+	background-repeat: no-repeat;
+}
+a.botonesgdes{
+font-size:13px;
+color:#FFF;
+}
+
+.oulet_texto{
+	width:600px;
+	height:40px;
+	float:left;
+	margin-left:30px;
+	position:absolute;	
+	}
+
 .block {margin-bottom:20px}
 #footer .block {margin-bottom:0}
 	.block .title_block, .block h4 {
