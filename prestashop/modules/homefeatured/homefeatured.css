@@ -17,7 +17,7 @@
 #featured-products_block_center .product_image {
 	display:block;
 	position:relative;
-	overflow:hidden
+	overflow:hidden;
 }
 #featured-products_block_center .product_image span.new {
 	display: block;

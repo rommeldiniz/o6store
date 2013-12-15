@@ -24,16 +24,16 @@
 *}
 
 <!-- MODULE Home Featured Products -->
-
+<div id="center_column" class="grid_8" style="margin-left:55px; height: auto !important">
 <div class="oulet">
     <div class="oulet_texto">CHEQUEA <b>AHORA</b> NUESTRAS <b>OFERTAS</b>, VISITA EL <b>OULET</b></div>
     <div class="boton_oulet"><a href="#" class="botonesgdes">OULET</a></div>
 </div>
     
-<div id="featured-products_block_center" class="block products_block clearfix">
-	<p class="title_block">{l s='Featured products' mod='homefeatured'}</p>
+<div style="margin-top:20px; border-style:none !important;" id="featured-products_block_center" class="block products_block clearfix">
+	<p class="title_block">{l s='LO ULTIMO TOP' mod='homefeatured'}</p>
 	{if isset($products) AND $products}
-		<div class="block_content">
+		<div style="margin-left:100px" class="block_content">
 			{assign var='liHeight' value=250}
 			{assign var='nbItemsPerLine' value=4}
 			{assign var='nbLi' value=$products|@count}
@@ -48,7 +48,7 @@
 					<p class="s_title_block"><a href="{$product.link|escape:'html'}" title="{$product.name|truncate:50:'...'|escape:'htmlall':'UTF-8'}">{$product.name|truncate:35:'...'|escape:'htmlall':'UTF-8'}</a></p>
 					<div class="product_desc"><a href="{$product.link|escape:'html'}" title="{l s='More' mod='homefeatured'}">{$product.description_short|strip_tags|truncate:65:'...'}</a></div>
 					<div>
-						<a class="lnk_more" href="{$product.link|escape:'html'}" title="{l s='View' mod='homefeatured'}">{l s='View' mod='homefeatured'}</a>
+						<a class="lnk_more" href="{$product.link|escape:'html'}" title="{l s='View' mod='homefeatured'}">{l s='Ver detalles...' mod='homefeatured'}</a>
 						{if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}<p class="price_container"><span class="price">{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}</span></p>{else}<div style="height:21px;"></div>{/if}
 						
 						{if ($product.id_product_attribute == 0 OR (isset($add_prod_display) AND ($add_prod_display == 1))) AND $product.available_for_order AND !isset($restricted_country_mode) AND $product.minimal_quantity == 1 AND $product.customizable != 2 AND !$PS_CATALOG_MODE}
@@ -69,4 +69,6 @@
 		<p>{l s='No featured products' mod='homefeatured'}</p>
 	{/if}
 </div>
+</div>
+
 <!-- /MODULE Home Featured Products -->
