@@ -5,8 +5,10 @@
  * background property for each of the five styles below
  */
 
-.bx-window {margin-bottom:20px;}
+.bx-window {margin-bottom:20px;
+width:980px !important;}
 .bx-wrapper {
+	width:980px !important;
 	margin-bottom:20px;
 	height:300px
 }
