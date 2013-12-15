@@ -27,7 +27,7 @@
 				</div>
 
 <!-- Right -->
-{if $page_name != 'authentication' && $page_name != 'index' }
+{if $page_name != 'authentication' && $page_name != 'index' &&  $page_name != 'category'}
 				<div id="right_column" class="column grid_2 omega">
 					{$HOOK_RIGHT_COLUMN}
 				</div>
