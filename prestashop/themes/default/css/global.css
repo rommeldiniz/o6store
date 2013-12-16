@@ -329,18 +329,10 @@ color:#FFF;
 		color:#fff;
 		text-shadow:0 1px 0 #000;
 		text-transform:uppercase;
-		background:#1B1B1B;
+		background:#383838;
 		font-weight: bold;
 	}
-	#stores_block_left{
-		display: none;
-	}
-	#contact_block{
-		display: none;
-	}
 		.block .title_block a, .block h4 a {color:#fff}
-	}
-	}
 	.block ul {list-style-type:none}
 		.block li.last {	border:none}
 			.block li a {
@@ -349,9 +341,6 @@ color:#FFF;
 			}
 
 /* BLOCK .products_block *********************************************************************** */
-#new-products_block_right{
-	margin-top: 5px;
-}
 .products_block {}
 	.products_block li {float:left
 }
@@ -854,7 +843,8 @@ table#cart_summary th {
 	color:#fff;
 	 font-weight:bold;
 	text-transform:uppercase;
-	background:#1B1B1B
+	 text-shadow:0 1px 0 #666;
+	background:url(../img/bg_table_th.png) repeat-x 0 -15px #999
 }
 table#cart_summary  th.cart_product {text-align:center}
 table#cart_summary  td {
@@ -867,7 +857,7 @@ table#cart_summary  td {
 }
 table#cart_summary  td.cart_delete,
 table#cart_summary  td.price_discount_del {border-right:none;text-align: center}
-table#cart_summary  .last_item  td {border-bottom:1px solid #1B1B1B}
+table#cart_summary  .last_item  td {border-bottom:1px solid #999}
 
 
 table#cart_summary tr.cart_item.odd,
@@ -1020,7 +1010,7 @@ table#cart_summary .cart_total_price .total_price_container {
 	font-weight:bold;
 	color:#fff;
 	text-transform:uppercase;
-	background:#1B1B1B
+	background:#333
 }
 .cart_total_price .total_price_container span {
 	display:block;
@@ -1044,7 +1034,7 @@ table#cart_summary .cart_total_price .total_price_container {
 	color:#fff;
 	font-weight:bold;
 	text-transform:uppercase;
-	background:#1B1B1B
+	background:url(../img/bg_table_th.png) repeat-x 0 -10px #999
 }
 #order_carrier span {
 	display:block;
