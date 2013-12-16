@@ -26,7 +26,7 @@ ul#product_list {
 #product_list li .center_block {
    float: left;
 	padding:0 7px;
-   width: 525px;/* 356 */
+   width: 639px;/* 356 */
 	border-right:1px dotted #ccc
 }
 #product_list a.product_img_link {

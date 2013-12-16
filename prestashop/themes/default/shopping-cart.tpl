@@ -26,7 +26,7 @@
 {capture name=path}{l s='Your shopping cart'}{/capture}
 {include file="$tpl_dir./breadcrumb.tpl"}
 
-<h1 id="cart_title">{l s='Shopping-cart summary'}</h1>
+<h1 id="cart_title">{l s='Productos en la Bolsa'}</h1>
 
 {if isset($account_created)}
 	<p class="success">

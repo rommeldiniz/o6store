@@ -109,9 +109,9 @@
 				<div id="center_column" class=" grid_7">
 				{else if $page_name == 'authentication'}   
 				<!-- Center -->
-				<div id="center_body" class="grid_9" style="height:600px;width:980px;">
+				<div id="center_body" class="grid_9" style="height:700px;width:980px;">
 				{else if $page_name == 'category'}
-				<div id="center_column" class="grid_8" style="margin-left:55px;">
+				<div id="center_column" class="grid_9" style="margin-left:0px;">
 				{else}
 				<div id="center_column" class=" grid_5">
 				{/if}

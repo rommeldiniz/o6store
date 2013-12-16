@@ -113,7 +113,7 @@ $(document).ready(function() {
 		//send the ajax request to the server
 		$.ajax({
 			type: 'POST',
-			url: baseUri,
+			url: baseUri + 'index.php?controller=authentication',
 			async: true,
 			cache: false,
 			dataType : "json",

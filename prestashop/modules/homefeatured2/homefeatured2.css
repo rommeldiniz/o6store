@@ -1,0 +1,128 @@
+#featured-products_block_center_home_2 li {
+	 height: 240px;
+    margin-left: 11px;
+    margin-right: 0;
+    padding: 10px 0;
+    width: 124px !important;
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+}
+#featured-products_block_center_home_2 li.last_item_of_line  {margin-right:0;}
+#featured-products_block_center_home_2 .s_title_block_home_2,  #featured-products_block_center_home_2 h5 {
+	padding-top:5px;
+	height:30px;
+	font-size:20px;
+	color:#fff !important;
+	padding-bottom: 0;
+	font-weight:bold;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+}
+
+#featured-products_block_center_home_2 .product_image {
+	display:block;
+	position:relative;
+	overflow:hidden !important;
+}
+#featured-products_block_center_home_2 .product_image span.new {
+	display: absolute !important;
+	position: absolute;
+	top: 0px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	right:-45px;
+	padding: 1px 4px;
+	height: 65px;
+	width: 101px;
+	font-size:15px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	background:url(img/oferta.png) no-repeat 0 0;
+}
+
+#featured-products_block_center_home_2 .product_desc_home_2 {height:45px; display: none;}
+#featured-products_block_center_home_2 .product_desc_home_2,
+#featured-products_block_center_home_2 .product_desc_home_2 a {
+	color:#fff;
+	margin-top: -11px;
+}
+#featured-products_block_center_home_2 .lnk_more{
+	display:none !important;
+	padding-right:10px;
+	font-weight:bold;
+	font-size:10px;
+	color:#0088cc;
+	background:url(img/arrow_right_1.png) no-repeat 100% 3px;
+}
+#featured-products_block_center_home_2 .price_container {
+	margin-top:-6px;
+	color:#ffe270;
+	font-size: 30px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	padding:0;
+}
+#featured-products_block_center_home_2 .price_home_2 {
+	font-weight:bold;
+	font-size:14px;
+	color:#990000;
+	display: none;
+}
+#featured-products_block_center_home_2 li .ajax_add_to_cart_button {display:none;}
+#featured-products_block_center_home_2 li span.exclusive {display:none;}
+/*Slider*/
+			#intro {
+				width: 960px;
+				margin: 0 auto;
+			}
+			.wrapper {
+				width: 960px;
+				left:-5px !important;
+			}
+			.list_carousel {
+				width: 960px;
+				z-index: 2 !important;
+			}
+			.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				
+
+			}
+			.list_carousel li {
+				float: left;
+			}
+			.list_carousel.responsive {
+				width: auto;
+				margin-left: 0;
+			}
+			.prev {
+				float: left;
+				margin-left: -40px;
+				margin-top: -217px;
+				background: url('http://rommeldiniz.com/motomania/modules/homefeatured/img/izq.png') no-repeat;
+				width: 54px;
+				height:53px;
+				z-index: 4 !important;
+			}
+			.next {
+				float: right;
+				margin-right: -45px;
+    			margin-top: -217px; 
+				background: url('http://rommeldiniz.com/motomania/modules/homefeatured/img/der.png') no-repeat;
+				width: 54px;
+				height:53px;
+			}
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: underline;
+			}
+			.timer {
+				height: 6px;
+				width: 0px;
+			}
