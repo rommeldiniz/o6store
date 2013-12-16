@@ -106,7 +106,11 @@
 			{include file="./product-list.tpl" products=$products}
 			
 			<div class="content_sortPagiBar">
-				
+				<div class="sortPagiBar clearfix">
+					{include file="./product-sort.tpl" paginationId='bottom'}
+					{include file="./product-compare.tpl" paginationId='bottom'}
+					{include file="./nbr-product-page.tpl" paginationId='bottom'}
+				</div>
 				{include file="./pagination.tpl" paginationId='bottom'}
 			</div>
 		{/if}

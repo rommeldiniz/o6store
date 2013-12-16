@@ -25,13 +25,21 @@
 
 <!-- Block user information module HEADER -->
 <div id="header_user" {if $PS_CATALOG_MODE}class="header_user_catalog"{/if}>
+
 	<ul id="header_nav">
 		{if !$PS_CATALOG_MODE}
-		<li id="shopping_cart">
-			<a href="{$link->getPageLink($order_process, true)|escape:'html'}" title="{l s='Ver mis compras' mod='blockuserinfo'}" rel="nofollow"><!--{l s='Cart' mod='blockuserinfo'}!-->
-			<span class="ajax_cart_quantity{if $cart_qties == 0} hidden{/if}">{$cart_qties}</span>
+        
+        <div id="columna_items">
+        		<div class="items"><a style="color:#FFF" class="botones" href="{$link->getPageLink($order_process, true)|escape:'html'}" title="{l s='Ver mis compras' mod='blockuserinfo'}" rel="nofollow"><span class="ajax_cart_quantity{if $cart_qties == 0} hidden{/if}">{$cart_qties}</span>
 			<span class="ajax_cart_product_txt{if $cart_qties != 1} hidden{/if}">{l s='Product' mod='blockuserinfo'}</span>
 			<span class="ajax_cart_product_txt_s{if $cart_qties < 2} hidden{/if}">{l s='Products' mod='blockuserinfo'}</span>
+            <span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='(0)ITEMS' mod='blockuserinfo'}</span></a></div>
+        </div>
+       
+		<li id="shopping_cart">
+        	<div class="shopping_bolsa">
+			<a href="{$link->getPageLink($order_process, true)|escape:'html'}" title="{l s='Ver mis compras' mod='blockuserinfo'}" rel="nofollow"><!--{l s='Cart' mod='blockuserinfo'}!-->
+			
 			<span class="ajax_cart_total{if $cart_qties == 0} hidden{/if}">
 				{if $cart_qties > 0}
 					{if $priceDisplay == 1}
@@ -43,8 +51,9 @@
 					{/if}
 				{/if}
 			</span>
-			<!--<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='(empty)' mod='blockuserinfo'}</span>!-->
+			
 			</a>
+           </div>
 		</li>
 		{/if}
 		<li id="your_account"><a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">{l s='Your Account' mod='blockuserinfo'}</a></li>

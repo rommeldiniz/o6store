@@ -9,7 +9,7 @@
 	display:none;
 	position: absolute;
 	right: 0;
-	top: 65px;
+	margin-top: 0px;
 	height: auto;
 	width: 200px;
 	-moz-border-bottom-right-radius: 3px;
@@ -89,9 +89,9 @@
 	top:-1px;
 	left:-12px;
 	display:block;
-	height:26px;
+	height:32px;
 	width:26px;
-	background:url(img/icon/pict_add_cart.png) no-repeat 0 0
+	background:url(img/icon/bolsa.png) no-repeat 0 0
 }
 #cart_block table#vouchers {
 	clear: both;

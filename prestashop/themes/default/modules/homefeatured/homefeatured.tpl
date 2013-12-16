@@ -33,7 +33,7 @@
 <div style="margin-top:20px; border-style:none !important;" id="featured-products_block_center" class="block products_block clearfix">
 	<p class="title_block">{l s='LO ULTIMO TOP' mod='homefeatured'}</p>
 	{if isset($products) AND $products}
-		<div style="margin-left:100px" class="block_content">
+		<div style="margin-left:98px" class="block_content">
 			{assign var='liHeight' value=250}
 			{assign var='nbItemsPerLine' value=4}
 			{assign var='nbLi' value=$products|@count}

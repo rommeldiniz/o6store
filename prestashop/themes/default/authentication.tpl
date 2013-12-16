@@ -113,7 +113,7 @@ $(document).ready(function() {
 		//send the ajax request to the server
 		$.ajax({
 			type: 'POST',
-			url: baseUri + 'index.php?controller=authentication',
+			url: baseUri,
 			async: true,
 			cache: false,
 			dataType : "json",
@@ -190,7 +190,6 @@ $(document).ready(function() {
 		</ol>
 	</div>
 	{/if}-->
-	<div style="margin-top: -7px;">
 	<form action="{$link->getPageLink('authentication', true)|escape:'html'}" method="post" id="create-account_form" class="std">
 		<fieldset>
 			<h3>{l s='Create an account'}</h3>
@@ -740,4 +739,3 @@ $(document).ready(function() {
 	</p>
 </form>
 {/if}
-</div>

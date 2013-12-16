@@ -26,7 +26,7 @@ ul#product_list {
 #product_list li .center_block {
    float: left;
 	padding:0 7px;
-   width: 639px;/* 356 */
+   width: 342px;/* 356 */
 	border-right:1px dotted #ccc
 }
 #product_list a.product_img_link {
@@ -84,7 +84,7 @@ ul#product_list {
 #product_list li .right_block {
 position:relative;
 float: left;
-width: 284px;
+width: 145px;
 text-align: right
 }
 #product_list li .discount, ul#product_list li .on_sale, ul#product_list li .online_only {
@@ -132,9 +132,9 @@ text-align: right
 	position: absolute;
 	top: -1px;
 	left: -12px;
-	height: 30px;
+	height: 26px;
 	width: 26px;
-	background: url(../img/icon/bolsa.png) no-repeat 0 0 transparent;
+	background: url(../img/icon/pict_add_cart.png) no-repeat 0 0 transparent
 }
 #product_list li .lnk_view {
 	display: block;
