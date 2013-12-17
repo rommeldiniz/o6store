@@ -2,15 +2,15 @@
 <div class="lof-featured {$theme}">
 	<section class="featured-widget">
 		<header>
-        		<h3 class="featured-title">{l s='LO ULTIMO TOP' mod='loffeatured'}
-                	<hr style="width:530px; position:absolute; margin-left:110px; margin-top:-7px !important;" class="art"/>
-                	<hr style="width:530px; position:absolute; margin-left:110px; margin-top:-10px !important;" class="art"/>
+        		<h3 class="featured-title">{l s='NUEVOS PRODUCTOS' mod='lofnewproduct'}
+                	<hr style="width:520px; position:absolute; margin-left:145px; margin-top:-7px !important;" class="art"/>
+                	<hr style="width:520px; position:absolute; margin-left:145px; margin-top:-10px !important;" class="art"/>
                 </h3>
                 
 		</header>
 		<div class="list-featured responsive">
 			<ul id="loffeatured-{$moduleId}" class="featured-news clearfix">
-				{foreach from=$listFeature item=item}    
+				{foreach from=$listNews item=item}     
 				<li>
 					<article>
 						<div class="featured-item box-hover clearfix">

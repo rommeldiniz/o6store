@@ -1,0 +1,150 @@
+.jcarousel-skin-tango .jcarousel-container {
+    border-top: 1px solid #D0D3D8;
+    border-bottom: 1px solid #D0D3D8;	
+	margin:18px 0 12px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 860px;
+    padding: 18px 60px 14px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  820px;
+
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 150px;
+	
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 20px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    width: 11px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../img/next-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../img/prev-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    opacity:0.6
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    opacity:0.6
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    opacity:0.6
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    width: 11px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../img/prev-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: -10px;
+    background-image: url(../img/next-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    opacity:0.6
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    opacity:0.6
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    opacity:0.6
+}
+.frame_articulos{
+	margin-top:30px;
+	width:708px;
+	height:26px;
+}
+
+.titulo_art{
+	width:145px;
+	height:25px;
+	text-align:left;
+	float:left;
+	font-weight:bold;
+	color:#333;
+	}
+.separador_art{
+	margin-left:0px;
+	margin-top:5px;
+	width:510px;
+	height:20px;
+	float:left;	
+	}
+
+hr.art{
+	margin-top:0px;
+	margin-left:0px;
+	width:550px;	
+	color: #E2E2E2;
+	height: 0px;
+	border:1px dashed;
+	float:left;
+}
+
+	
+	.jcarousel-skin-tango img {
+-webkit-transition: all 0.5s ease-out;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+
+}
+ 
+.jcarousel-skin-tango img:hover {
+-webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+   -o-transform: scale(1.1,1.1);
+   -ms-transform: scale(1.1,1.1);
+   transform: scale(1.1,1.1);
