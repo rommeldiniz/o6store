@@ -5,8 +5,7 @@
         		<h3 class="featured-title">{l s='LO ULTIMO TOP' mod='loffeatured'}
                 	<hr style="width:530px; position:absolute; margin-left:110px; margin-top:-7px !important;" class="art"/>
                 	<hr style="width:530px; position:absolute; margin-left:110px; margin-top:-10px !important;" class="art"/>
-                </h3>
-                
+                </h3>                
 		</header>
 		<div class="list-featured responsive">
 			<ul id="loffeatured-{$moduleId}" class="featured-news clearfix">
